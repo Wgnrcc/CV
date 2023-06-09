@@ -9,22 +9,7 @@ margin: 0 auto;
 margin-bottom: 5mm;
 margin-top: 5mm;
 }
-page[size="A4"] {  
-width: 210mm;
-height: 297mm;
-}
-@page {
-size: 210mm 297mm;
-margin: 0; 
-}
-@media print { 
-html, body, page {
-width: 210mm;
-height:100%;
-margin: 0 !important; 
-padding: 0 !important;
-overflow: hidden; 
-}
+
 .no-overflow{
 overflow: hidden; 
 }
@@ -69,6 +54,7 @@ color: #da2d2d;
 width: 210mm;
 height: 297mm;
 background: #fff;
+margin: auto;
 }
 .mainDetails {
 padding: 8mm 0 0 8mm;
